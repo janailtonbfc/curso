@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<title>Meu site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Introdução ao Desenvolvimento de Sites</b></a>
+
+    <div class="w3-right w3-hide-small">
+      <a href="Index.html" class="w3-bar-item w3-button">Página Inicial</a>
+	  <a href="formulario.html" class="w3-bar-item w3-button">Formulário</a>
+	  <a href="tabelas.html" class="w3-bar-item w3-button">Tabelas</a>
+      <a href="testes.html" class="w3-bar-item w3-button">Area de Testes</a>
+    </div>
+  </div>
+</div>
+
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="img/back35.jpg" alt="Gray background" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+  </div>
+</header>
+
+<div class="w3-content w3-padding" style="max-width:1564px">
+    
+  <div class="w3-container w3-padding-32" id="content">
+    <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Meu Formulário</h2>
+	
+
+<style>
+body, u, div{
+  background-color: Black;
+  text-align: Left;
+  color: white;
+}
+</style>
+
+  <fieldset>
+	<legend>Registro de teste</legend>
+        <form>
+         
+			<label for="campoNome">Nome</label>
+            <input type="text" id="campoNome" name="nome">
+            <br><br>
+			<label for="campoNome">Data de Nascimento</label>
+			<input id="date" type="date">
+			<br><br>
+			<input type="radio" name="sex" value="male"> Masculino
+			<br>
+			<input type="radio" name="sex" value="female"> Feminino
+			<br>
+			<label for="text">Área de Pesquisa</label>
+			<input list="tipo" name="tipo"/>
+			<datalist id="tipo">
+			<option value="Educação">
+			<option value="Ciências">
+			<option value="Matemática">
+			<option value="Física">
+			</datalist> 
+            <br><br>
+			
+			<label for="text">Universidade de Formação</label>
+			<input list="type" name="type"/>
+			
+			<datalist id="type">
+			<option value="USP">
+			<option value="UNESP">
+			<option value="UFSCar">
+			<option value="IFSP">
+			</datalist> 
+            <br><br>
+            
+			<label for="text">Email</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+           
+			<div class="button">
+			<button type="submit">Salvar</button>
+			</div>
+			</form>
+	</fieldset>
+
+
+</body>
+	</div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Livre para sempre</p>
+</footer>
+</html>
